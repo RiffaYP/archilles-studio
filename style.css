@@ -439,7 +439,7 @@ p {
     background-image:
         linear-gradient(100deg, rgba(11, 14, 15, 0.86) 0%, rgba(11, 14, 15, 0.52) 46%, rgba(11, 14, 15, 0.22) 100%),
         linear-gradient(to top, rgba(11, 14, 15, 0.78) 0%, rgba(11, 14, 15, 0) 44%),
-        var(--hero-bg, url("assets/pramuka/pramuka-poster.jpeg")); /* Memanggil gambar dari HTML */
+        url("assets/pramuka/pramuka-poster.jpeg"); /* Memanggil gambar dari HTML */
     background-position: center;
     background-size: cover;
     animation: heroDrift 22s var(--ease) forwards;
