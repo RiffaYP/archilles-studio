@@ -60,10 +60,11 @@
         <!-- ============ HERO ============ -->
         <section id="beranda" class="hero-section">
             <!-- Ganti gambar hero di style.css -> .hero-section::before -> background-image -> url(...) -->
-            <div class="hero-inner stagger-group">
-                <p class="eyebrow reveal">Archilles Studio <span aria-hidden="true">·</span> Arsitektur Lanskap</p>
-                <h1 class="reveal">Ruang luar<br>yang dibaca dari <span class="accent">tapaknya.</span></h1>
-                <p class="hero-lead reveal">Saya Rafi, mahasiswa Arsitektur Lanskap ITERA. Saya mengerjakan perencanaan tapak, desain ruang luar, dan gambar kerja DED &mdash; dari rumah tinggal sampai skala kawasan.</p>
+<div class="hero-inner stagger-group">
+                    <p class="eyebrow reveal">Archilles Studio <span aria-hidden="true">·</span> Arsitektur Lanskap</p>
+                    <h1 class="reveal">Ruang luar<br>yang dibaca dari <span class="accent">tapaknya.</span></h1>
+                    <p class="hero-tagline reveal">Architectural design and technical supervision, prioritizing precision, functionality, and structural durability.</p>
+                    <p class="hero-lead reveal">Saya Rafi, mahasiswa Arsitektur Lanskap ITERA. Saya mengerjakan perencanaan tapak, desain ruang luar, dan gambar kerja DED &mdash; dari rumah tinggal sampai skala kawasan.</p>
                 <div class="hero-actions reveal">
                     <a href="#karya" class="btn btn-primary">Lihat Karya <span aria-hidden="true">&rarr;</span></a>
                     <a href="#tentang" class="btn btn-ghost">Tentang Saya</a>
@@ -241,7 +242,7 @@
                         <p class="section-label">Karya</p>
                         <h2>Proyek terpilih.</h2>
                     </div>
-                    <p class="reveal">Dua proyek rumah tinggal satu lantai di Lampung, disajikan dalam bentuk model 3D dan gambar kerja DED.</p>
+                    <p class="reveal">Dua proyek rumah tinggal satu lantai di Lampung, disajikan dalam model 3D interaktif, hasil render, dan gambar kerja DED.</p>
                 </div>
 
                 <div class="portfolio-grid stagger-group">
@@ -274,7 +275,7 @@
                             <span class="item-tag">Model 3D</span>
                             <h3>Hunian Bataranila</h3>
                             <p>Rumah tinggal satu lantai tipe 65 di Bantaran Nila, Lampung. Model ini memperlihatkan tampak depan, tata massa bangunan, dan area hijau di sekelilingnya.</p>
-                            <span class="item-index">01 / 04</span>
+                            <span class="item-index">01 / 06</span>
                         </div>
                     </article>
 
@@ -306,15 +307,53 @@
                             <span class="item-tag">Model 3D</span>
                             <h3>Hunian Pramuka</h3>
                             <p>Rumah tinggal satu lantai di Pramuka. Model ini menunjukkan gubahan massa, penataan jalur masuk, dan sebaran vegetasi di halaman.</p>
-                            <span class="item-index">02 / 04</span>
+                            <span class="item-index">02 / 06</span>
                         </div>
                     </article>
 
-                    <!-- Item 3: Bataranila — DED -->
+                    <!-- Item 3: Bataranila — Hasil Render -->
                     <article class="portfolio-item reveal">
                         <div class="image-gallery-container">
-                            <!-- 🔴 REPLACE IMAGE HERE 🔴 -->
-                            <!-- Gambar DED Bataranila: assets/bataranila/ded-bataranila.png -->
+                            <img
+                                src="assets/bataranila/bataranila.jpeg"
+                                alt="Hasil Render Bataranila"
+                                class="lightbox-trigger"
+                                data-caption="Hasil Render Bataranila"
+                                loading="lazy"
+                                decoding="async">
+                            <div class="overlay-text">Klik untuk memperbesar</div>
+                        </div>
+                        <div class="item-info">
+                            <span class="item-tag">Hasil Render</span>
+                            <h3>Render Bataranila</h3>
+                            <p>Visualisasi hasil render hunian tipe 65, Bantaran Nila, Lampung. Menampilkan tampak depan, materialitas fasad, dan komposisi vegetasi halaman.</p>
+                            <span class="item-index">03 / 06</span>
+                        </div>
+                    </article>
+
+                    <!-- Item 4: Pramuka — Hasil Render -->
+                    <article class="portfolio-item reveal">
+                        <div class="image-gallery-container">
+                            <img
+                                src="assets/pramuka/pramuka-poster.jpeg"
+                                alt="Hasil Render Pramuka"
+                                class="lightbox-trigger"
+                                data-caption="Hasil Render Pramuka"
+                                loading="lazy"
+                                decoding="async">
+                            <div class="overlay-text">Klik untuk memperbesar</div>
+                        </div>
+                        <div class="item-info">
+                            <span class="item-tag">Hasil Render</span>
+                            <h3>Render Pramuka</h3>
+                            <p>Visualisasi hasil render hunian satu lantai di Pramuka. Menunjukkan komposisi massa bangunan, penataan pintu masuk, dan lanskap halaman depan.</p>
+                            <span class="item-index">04 / 06</span>
+                        </div>
+                    </article>
+
+                    <!-- Item 5: Bataranila — DED -->
+                    <article class="portfolio-item reveal">
+                        <div class="image-gallery-container">
                             <img
                                 src="assets/bataranila/ded-bataranila.png"
                                 alt="DED Bataranila"
@@ -328,7 +367,7 @@
                             <span class="item-tag">Gambar Kerja</span>
                             <h3>DED Bataranila</h3>
                             <p>Dokumen DED hunian tipe 65, Bantaran Nila, Lampung. Berisi gambar arsitektur, struktur, dan MEP &mdash; 20 lembar, disusun Agustus 2026.</p>
-                            <span class="item-index">03 / 04</span>
+                            <span class="item-index">05 / 06</span>
                         </div>
                     </article>
 
@@ -350,7 +389,7 @@
                             <span class="item-tag">Gambar Kerja</span>
                             <h3>DED Pramuka</h3>
                             <p>Dokumen DED hunian satu lantai di Pramuka. Berisi gambar arsitektur, struktur, dan MEP beserta detail konstruksinya.</p>
-                            <span class="item-index">04 / 04</span>
+                            <span class="item-index">06 / 06</span>
                         </div>
                     </article>
 

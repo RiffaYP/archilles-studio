@@ -494,6 +494,16 @@ p {
     color: var(--sand);
 }
 
+.hero-tagline {
+    max-width: 58ch;
+    margin-top: clamp(18px, 2.5vw, 28px);
+    font-size: clamp(0.9rem, 1.1vw, 1rem);
+    font-weight: 400;
+    line-height: 1.7;
+    color: var(--sand);
+    letter-spacing: 0.01em;
+}
+
 .hero-lead {
     max-width: 54ch;
     margin-top: clamp(24px, 3vw, 34px);
@@ -1413,6 +1423,11 @@ footer {
         line-height: 1.68;
     }
 
+    .hero-tagline {
+        font-size: 0.88rem;
+        line-height: 1.6;
+    }
+
     .hero-meta {
         gap: 8px 20px;
         margin-top: 34px;
@@ -1693,6 +1708,13 @@ footer {
         font-size: 0.92rem;
         line-height: 1.66;
         max-width: 34ch;
+    }
+
+    .hero-tagline {
+        margin-top: 16px;
+        font-size: 0.86rem;
+        line-height: 1.55;
+        max-width: 38ch;
     }
 
     .hero-actions {
